@@ -6,6 +6,6 @@ primarily to learn macOS app development, but the tool is generally usable.
 
 This work is licensed under the [WTFPL](http://www.wtfpl.net/), so you can do anything you 
 want with it.
-The [icon file](https://github.com/mroi/card-game-collect/blob/master/kpat.icns) was taken 
-from [KPatience](https://kde.org/applications/games/org.kde.kpat/) and is licensed under 
-[GNU GPL Version 2](https://github.com/mroi/card-game-collect/blob/master/kpat-license.txt).
+The [icon files](https://github.com/mroi/card-game-collect/blob/swift/Media.xcassets/Quartetts.appiconset/) 
+were taken from [KPatience](https://kde.org/applications/games/org.kde.kpat/) and are 
+licensed under [GNU GPL Version 2](https://github.com/mroi/card-game-collect/blob/swift/appicon-license.txt).
