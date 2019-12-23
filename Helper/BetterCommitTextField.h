@@ -1,0 +1,2 @@
+@interface BetterCommitTextField : NSTextFieldCell
+@end

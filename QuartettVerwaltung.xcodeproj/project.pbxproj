@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0B5D920B3F0FD00081BC9A /* ValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B5D910B3F0FD00081BC9A /* ValueTransformers.m */; };
+		4C0E93B60F0254C500F5DEB4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E93B40F0254C500F5DEB4 /* MainMenu.xib */; };
+		4C0E93ED0F027E3A00F5DEB4 /* QVImportExport.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0E93EB0F027E3A00F5DEB4 /* QVImportExport.xib */; };
+		4C107E150F03AD4900D220E2 /* kpat.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4C107E140F03AD4900D220E2 /* kpat.icns */; };
+		4C1F95A00F505BBF0030CFC3 /* BetterCommitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1F95500F504DB60030CFC3 /* BetterCommitTextField.m */; };
+		4C7E94090B3EE17A006B4B30 /* QuartettVerwaltung.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E94080B3EE17A006B4B30 /* QuartettVerwaltung.m */; };
+		4CB7E4930B88A8940016A101 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7E4830B88A7A50016A101 /* Localizable.strings */; };
+		4CB7E5800B88C7A90016A101 /* QVArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7E57F0B88C7A90016A101 /* QVArrayController.m */; };
+		4CCF273B0D27E6CB00CA9448 /* NoClickThroughButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF273A0D27E6CB00CA9448 /* NoClickThroughButton.m */; };
+		4CD7821C23B131A6009953D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD7821B23B1315E009953D0 /* Cocoa.framework */; };
+		4CE4E13C0F0416210086469A /* QVViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4E13B0F0416210086469A /* QVViewHelper.m */; };
+		4CEFACE20B3FF8E500C71C5A /* QVImportExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFACE10B3FF8E500C71C5A /* QVImportExport.m */; };
+		770B37ED0679A11B001EADE2 /* QuartettVerwaltung.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* QuartettVerwaltung.xcdatamodel */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* QuartettVerwaltung.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartettVerwaltung.pch; sourceTree = "<group>"; };
+		4C0B5D900B3F0FD00081BC9A /* ValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueTransformers.h; sourceTree = "<group>"; };
+		4C0B5D910B3F0FD00081BC9A /* ValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformers.m; sourceTree = "<group>"; };
+		4C0E93FC0F02842300F5DEB4 /* Quartette.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Quartette.xml; sourceTree = "<group>"; };
+		4C107E140F03AD4900D220E2 /* kpat.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = kpat.icns; sourceTree = "<group>"; };
+		4C1F954F0F504DB60030CFC3 /* BetterCommitTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterCommitTextField.h; sourceTree = "<group>"; };
+		4C1F95500F504DB60030CFC3 /* BetterCommitTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterCommitTextField.m; sourceTree = "<group>"; };
+		4C78277B0F487AF500250992 /* QVPredicateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVPredicateFactory.h; sourceTree = "<group>"; };
+		4C7E94070B3EE17A006B4B30 /* QuartettVerwaltung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartettVerwaltung.h; sourceTree = "<group>"; };
+		4C7E94080B3EE17A006B4B30 /* QuartettVerwaltung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartettVerwaltung.m; sourceTree = "<group>"; };
+		4CB7E57E0B88C7A90016A101 /* QVArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVArrayController.h; sourceTree = "<group>"; };
+		4CB7E57F0B88C7A90016A101 /* QVArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVArrayController.m; sourceTree = "<group>"; };
+		4CCF27390D27E6CB00CA9448 /* NoClickThroughButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoClickThroughButton.h; sourceTree = "<group>"; };
+		4CCF273A0D27E6CB00CA9448 /* NoClickThroughButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoClickThroughButton.m; sourceTree = "<group>"; };
+		4CD7821723B12D72009953D0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CD7821823B12D72009953D0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CD7821923B12D72009953D0 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4CD7821A23B12D72009953D0 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/QVImportExport.xib; sourceTree = "<group>"; };
+		4CD7821B23B1315E009953D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		4CD7821D23B13ADD009953D0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CE4E0900F03C3770086469A /* QVConvertLatex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVConvertLatex.h; sourceTree = "<group>"; };
+		4CE4E13A0F0416210086469A /* QVViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVViewHelper.h; sourceTree = "<group>"; };
+		4CE4E13B0F0416210086469A /* QVViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVViewHelper.m; sourceTree = "<group>"; };
+		4CEFACE00B3FF8E500C71C5A /* QVImportExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVImportExport.h; sourceTree = "<group>"; };
+		4CEFACE10B3FF8E500C71C5A /* QVImportExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVImportExport.m; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* QuartettVerwaltung.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = QuartettVerwaltung.xcdatamodel; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Quartetts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartetts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD7821C23B131A6009953D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C7D8F080F02D791005E9733 /* Helper */,
+				4C7E94070B3EE17A006B4B30 /* QuartettVerwaltung.h */,
+				4C7E94080B3EE17A006B4B30 /* QuartettVerwaltung.m */,
+				4CB7E57E0B88C7A90016A101 /* QVArrayController.h */,
+				4CB7E57F0B88C7A90016A101 /* QVArrayController.m */,
+				4CEFACE00B3FF8E500C71C5A /* QVImportExport.h */,
+				4CEFACE10B3FF8E500C71C5A /* QVImportExport.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Quartetts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Quartett-Verwaltung */ = {
+			isa = PBXGroup;
+			children = (
+				4CD7821D23B13ADD009953D0 /* README.md */,
+				4C0E93FC0F02842300F5DEB4 /* Quartette.xml */,
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Quartett-Verwaltung";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1D9D00F4E0CD600F08C24 /* Protocols */,
+				32CA4F630368D1EE00C91783 /* QuartettVerwaltung.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				4C107E140F03AD4900D220E2 /* kpat.icns */,
+				4C0E93B40F0254C500F5DEB4 /* MainMenu.xib */,
+				4C0E93EB0F027E3A00F5DEB4 /* QVImportExport.xib */,
+				4CB7E4830B88A7A50016A101 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CD7821B23B1315E009953D0 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C7D8F080F02D791005E9733 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4E13A0F0416210086469A /* QVViewHelper.h */,
+				4CE4E13B0F0416210086469A /* QVViewHelper.m */,
+				4C0B5D900B3F0FD00081BC9A /* ValueTransformers.h */,
+				4C0B5D910B3F0FD00081BC9A /* ValueTransformers.m */,
+				4CCF27390D27E6CB00CA9448 /* NoClickThroughButton.h */,
+				4CCF273A0D27E6CB00CA9448 /* NoClickThroughButton.m */,
+				4C1F954F0F504DB60030CFC3 /* BetterCommitTextField.h */,
+				4C1F95500F504DB60030CFC3 /* BetterCommitTextField.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4CF1D9D00F4E0CD600F08C24 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4CE4E0900F03C3770086469A /* QVConvertLatex.h */,
+				4C78277B0F487AF500250992 /* QVPredicateFactory.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* QuartettVerwaltung.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* QuartettVerwaltung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "QuartettVerwaltung" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartettVerwaltung;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Quartett-Verwaltung";
+			productReference = 8D1107320486CEB800E47090 /* Quartetts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "QuartettVerwaltung" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Quartett-Verwaltung */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* QuartettVerwaltung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4CB7E4930B88A8940016A101 /* Localizable.strings in Resources */,
+				4C0E93B60F0254C500F5DEB4 /* MainMenu.xib in Resources */,
+				4C0E93ED0F027E3A00F5DEB4 /* QVImportExport.xib in Resources */,
+				4C107E150F03AD4900D220E2 /* kpat.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				770B37ED0679A11B001EADE2 /* QuartettVerwaltung.xcdatamodel in Sources */,
+				4C7E94090B3EE17A006B4B30 /* QuartettVerwaltung.m in Sources */,
+				4C0B5D920B3F0FD00081BC9A /* ValueTransformers.m in Sources */,
+				4CEFACE20B3FF8E500C71C5A /* QVImportExport.m in Sources */,
+				4CB7E5800B88C7A90016A101 /* QVArrayController.m in Sources */,
+				4CCF273B0D27E6CB00CA9448 /* NoClickThroughButton.m in Sources */,
+				4CE4E13C0F0416210086469A /* QVViewHelper.m in Sources */,
+				4C1F95A00F505BBF0030CFC3 /* BetterCommitTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD7821723B12D72009953D0 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C0E93B40F0254C500F5DEB4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD7821923B12D72009953D0 /* de */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4C0E93EB0F027E3A00F5DEB4 /* QVImportExport.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD7821A23B12D72009953D0 /* de */,
+			);
+			name = QVImportExport.xib;
+			sourceTree = "<group>";
+		};
+		4CB7E4830B88A7A50016A101 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CD7821823B12D72009953D0 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuartettVerwaltung.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = local.quartetts;
+				PRODUCT_NAME = Quartetts;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QuartettVerwaltung.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = local.quartetts;
+				PRODUCT_NAME = Quartetts;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "QuartettVerwaltung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "QuartettVerwaltung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
