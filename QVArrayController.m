@@ -60,11 +60,6 @@
 	[[self importExportHelper] export];
 }
 
-- (IBAction)print:(id)sender
-{
-	[[self importExportHelper] print];
-}
-
 @dynamic importExportHelper;
 
 - (QVImportExport *)importExportHelper

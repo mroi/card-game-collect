@@ -42,7 +42,6 @@
 		4CD7821A23B12D72009953D0 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/QVImportExport.xib; sourceTree = "<group>"; };
 		4CD7821B23B1315E009953D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
 		4CD7821D23B13ADD009953D0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4CE4E0900F03C3770086469A /* QVConvertLatex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVConvertLatex.h; sourceTree = "<group>"; };
 		4CE4E13A0F0416210086469A /* QVViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVViewHelper.h; sourceTree = "<group>"; };
 		4CE4E13B0F0416210086469A /* QVViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVViewHelper.m; sourceTree = "<group>"; };
 		4CEFACE00B3FF8E500C71C5A /* QVImportExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVImportExport.h; sourceTree = "<group>"; };
@@ -103,7 +102,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4CF1D9D00F4E0CD600F08C24 /* Protocols */,
+				4C78277B0F487AF500250992 /* QVPredicateFactory.h */,
 				32CA4F630368D1EE00C91783 /* QuartettVerwaltung.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -142,15 +141,6 @@
 				4CCF273A0D27E6CB00CA9448 /* NoClickThroughButton.m */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		4CF1D9D00F4E0CD600F08C24 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				4CE4E0900F03C3770086469A /* QVConvertLatex.h */,
-				4C78277B0F487AF500250992 /* QVPredicateFactory.h */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {

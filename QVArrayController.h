@@ -11,7 +11,6 @@
 - (IBAction)duplicate:(id)sender;
 - (IBAction)import:(id)sender;
 - (IBAction)export:(id)sender;
-- (IBAction)print:(id)sender;
 
 - (IBAction)toggleStickyFilter:(id)sender;
 - (NSPredicate *)filterPredicateWithStickyFilter;

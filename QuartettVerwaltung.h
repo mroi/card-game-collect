@@ -4,9 +4,8 @@
  * of the model data. */
 
 #import "QVPredicateFactory.h"
-#import "QVConvertLatex.h"
 
-@interface QuartettVerwaltung : NSObject < QVPredicateFactory, QVConvertLatex > {
+@interface QuartettVerwaltung : NSObject <QVPredicateFactory> {
     NSManagedObjectContext *managedObjectContext;
 	NSArray *sortDescriptors;
 	NSDictionary *enumAttributeLocalizations;

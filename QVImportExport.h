@@ -11,7 +11,6 @@
 
 - (void)import;
 - (void)export;
-- (void)print;
 
 @property(readwrite, retain) NSArray *sortDescriptors;
 @property(readwrite, retain) NSString *operationName;

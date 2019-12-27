@@ -1,4 +1,3 @@
-#import "QVConvertLatex.h"
 #import "QVImportExport.h"
 
 
@@ -28,16 +27,6 @@
 					modalDelegate:self
 				   didEndSelector:@selector(performExport:returnCode:)
 					  contextInfo:nil];
-}
-
-- (void)print
-{
-	NSPrintPanel *panel = [NSPrintPanel printPanel];
-	[panel beginSheetWithPrintInfo:[NSPrintInfo sharedPrintInfo]
-					modalForWindow:[[NSApplication sharedApplication] mainWindow]
-						  delegate:self
-					didEndSelector:@selector(performPrint:returnCode:)
-					   contextInfo:nil];
 }
 
 #pragma mark -
@@ -163,91 +152,6 @@ static void endSheet(NSWindow *sheet)
 	
 	[pool drain];
 	endSheet(processingSheet);
-}
-
-static NSString *preamble = @""
-"\\documentclass[twocolumn,twoside,10pt,a4paper]{article}\n"
-"\\usepackage{%@}\n"
-"\\usepackage{ucs}\n"
-"\\usepackage[utf8x]{inputenc}\n"
-"\\usepackage{palatino}\n"
-"\n"
-"\\parindent0pt\n"
-"\\parskip3ex plus2ex minus0.5ex\n"
-"\\columnsep0.4in\n"
-"\\addtolength{\\evensidemargin}{-0.5in}\n"
-"\\addtolength{\\oddsidemargin}{0.5in}\n"
-"\\addtolength{\\topmargin}{-0.8in}\n"
-"\\addtolength{\\textheight}{1.5in}\n"
-"\\flushbottom\n"
-"\\pagestyle{myheadings}\n"
-"\n"
-"\\setcounter{tocdepth}{1}\n"
-"\\setcounter{secnumdepth}{0}\n"
-"\\makeatletter\n"
-"\\renewcommand{\\l@section}{\\@dottedtocline{0}{0em}{0em}}\n"
-"\\renewcommand{\\@pnumwidth}{3em}\n"
-"\\renewcommand{\\@tocrmarg}{3em}\n"
-"\\makeatother\n"
-"\n"
-"\\author{%@}\n"
-"\\title{%@}\n"
-"\n"
-"\\begin{document}\n"
-"\n"
-"\\maketitle\n"
-"\\thispagestyle{empty}\n"
-"\\tableofcontents\n"
-"\\cleardoublepage\n"
-"\\raggedright\n"
-"\n";
-
-- (void)performPrint:(id)panel returnCode:(int)returnCode
-{
-	if (!panelConfirmed(panel, returnCode)) return;
-	// TODO: print progress panel here?
-	
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	
-	// TODO: take this to a temporary directory
-	NSString *filename = [[NSHomeDirectory() stringByAppendingPathComponent:@"Desktop"] stringByAppendingPathComponent:@"Quartett.tex"];
-	[[NSFileManager defaultManager] createFileAtPath:filename contents:nil attributes:nil];
-	NSFileHandle *file = [NSFileHandle fileHandleForWritingAtPath:filename];
-	
-	if (file) {
-		NSString *buffer = [NSString stringWithFormat:preamble,
-							NSLocalizedString(@"latexLangCode", @"LaTeX export"),
-							latexEscape(NSFullUserName()),
-							NSLocalizedString(@"latexTitle", @"LaTeX export")];
-		[file writeData:[NSData dataWithBytes:[buffer UTF8String]
-									   length:[buffer lengthOfBytesUsingEncoding:NSUTF8StringEncoding]]];
-		
-		/* We need model knowledge to export the objects to LaTeX. By convention,
-		 * the app delegate holds the model code and knows how to do that. Let's check to be sure. */
-		id <QVConvertLatex> converter;
-		if ([[[NSApplication sharedApplication] delegate] conformsToProtocol:@protocol(QVConvertLatex)]) {
-			converter = [[NSApplication sharedApplication] delegate];
-		} else {
-			// TODO: error handling
-		}
-		
-		NSMutableDictionary *context = [NSMutableDictionary dictionary];
-		for (id quartett in [[controller content] sortedArrayUsingDescriptors:[self sortDescriptors]]) {
-			buffer = [converter convertToLatex:quartett withContext:context];
-			[file writeData:[NSData dataWithBytes:[buffer UTF8String]
-										   length:[buffer lengthOfBytesUsingEncoding:NSUTF8StringEncoding]]];
-		}
-		
-		buffer = @"\\end{document}\n";
-		[file writeData:[NSData dataWithBytes:[buffer UTF8String]
-									   length:[buffer lengthOfBytesUsingEncoding:NSUTF8StringEncoding]]];
-	} else {
-		// TODO: error handling
-	}
-	
-	[pool drain];
-	
-	// TODO: continue printing
 }
 
 @synthesize sortDescriptors;
