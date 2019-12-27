@@ -46,6 +46,7 @@
 		4CE4E13B0F0416210086469A /* QVViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVViewHelper.m; sourceTree = "<group>"; };
 		4CEFACE00B3FF8E500C71C5A /* QVImportExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QVImportExport.h; sourceTree = "<group>"; };
 		4CEFACE10B3FF8E500C71C5A /* QVImportExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QVImportExport.m; sourceTree = "<group>"; };
+		4CFA3ABA23B6218C00A9C3A4 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* QuartettVerwaltung.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = QuartettVerwaltung.xcdatamodel; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Quartetts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartetts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD7821D23B13ADD009953D0 /* README.md */,
+				4CFA3ABA23B6218C00A9C3A4 /* TODO.md */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
