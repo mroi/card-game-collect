@@ -29,7 +29,6 @@
 		32CA4F630368D1EE00C91783 /* QuartettVerwaltung.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartettVerwaltung.pch; sourceTree = "<group>"; };
 		4C0B5D900B3F0FD00081BC9A /* ValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueTransformers.h; sourceTree = "<group>"; };
 		4C0B5D910B3F0FD00081BC9A /* ValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformers.m; sourceTree = "<group>"; };
-		4C0E93FC0F02842300F5DEB4 /* Quartette.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Quartette.xml; sourceTree = "<group>"; };
 		4C107E140F03AD4900D220E2 /* kpat.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = kpat.icns; sourceTree = "<group>"; };
 		4C1F954F0F504DB60030CFC3 /* BetterCommitTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterCommitTextField.h; sourceTree = "<group>"; };
 		4C1F95500F504DB60030CFC3 /* BetterCommitTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterCommitTextField.m; sourceTree = "<group>"; };
@@ -94,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD7821D23B13ADD009953D0 /* README.md */,
-				4C0E93FC0F02842300F5DEB4 /* Quartette.xml */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -288,10 +286,10 @@
 		26FC0A850875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QuartettVerwaltung.pch;
 				INFOPLIST_FILE = Info.plist;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = local.quartetts;
 				PRODUCT_NAME = Quartetts;
 				WRAPPER_EXTENSION = app;
@@ -301,10 +299,10 @@
 		26FC0A860875C7B200E6366F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = QuartettVerwaltung.pch;
 				INFOPLIST_FILE = Info.plist;
+				MARKETING_VERSION = 2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = local.quartetts;
 				PRODUCT_NAME = Quartetts;
 				WRAPPER_EXTENSION = app;
@@ -339,7 +337,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -370,7 +367,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
