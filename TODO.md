@@ -1,4 +1,4 @@
-### Re-develop the app with a moden technology stack
+### Re-develop the app with a modern technology stack
 * no German-isms in code
 * app sandbox, hardened runtime
 * layered architecture
