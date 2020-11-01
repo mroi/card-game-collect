@@ -12,6 +12,11 @@
 		4C20B8F4254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C20B8F2254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld */; };
 		4C20B8F6254EF5FE00AFE3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C20B8F5254EF5FE00AFE3EA /* Assets.xcassets */; };
 		4C20B8FC254EF5FE00AFE3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C20B8FA254EF5FE00AFE3EA /* Main.storyboard */; };
+		DA6CF341254F123B00B9B3C3 /* CardGame+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CF33F254F123B00B9B3C3 /* CardGame+CoreDataClass.swift */; };
+		DA6CF342254F123B00B9B3C3 /* CardGame+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CF340254F123B00B9B3C3 /* CardGame+CoreDataProperties.swift */; };
+		DA6CF349254F198F00B9B3C3 /* CardGameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CF348254F198F00B9B3C3 /* CardGameType.swift */; };
+		DA6CF34C254F1C8B00B9B3C3 /* CardGame+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CF34B254F1C8B00B9B3C3 /* CardGame+CoreDataProperties.swift */; };
+		DA6CF34F254F1EF000B9B3C3 /* StateOfPreservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CF34E254F1EF000B9B3C3 /* StateOfPreservation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		4C20B8FE254EF5FE00AFE3EA /* CardGameCollect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardGameCollect.entitlements; sourceTree = "<group>"; };
 		4C6EAC07254EFCAB00F8B97F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C6EAC08254EFCAB00F8B97F /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		DA6CF33F254F123B00B9B3C3 /* CardGame+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardGame+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA6CF340254F123B00B9B3C3 /* CardGame+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CardGame+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA6CF348254F198F00B9B3C3 /* CardGameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameType.swift; sourceTree = "<group>"; };
+		DA6CF34B254F1C8B00B9B3C3 /* CardGame+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CardGame+CoreDataProperties.swift"; path = "Model/CardGame+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA6CF34E254F1EF000B9B3C3 /* StateOfPreservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateOfPreservation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 		4C20B8E2254EF5FD00AFE3EA = {
 			isa = PBXGroup;
 			children = (
+				DA6CF34B254F1C8B00B9B3C3 /* CardGame+CoreDataProperties.swift */,
 				4C6EAC07254EFCAB00F8B97F /* README.md */,
 				4C6EAC08254EFCAB00F8B97F /* TODO.md */,
 				4C20B8FD254EF5FE00AFE3EA /* Info.plist */,
@@ -64,7 +75,11 @@
 		4C20B909254EF87100AFE3EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA6CF33F254F123B00B9B3C3 /* CardGame+CoreDataClass.swift */,
+				DA6CF340254F123B00B9B3C3 /* CardGame+CoreDataProperties.swift */,
 				4C20B8F2254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld */,
+				DA6CF34E254F1EF000B9B3C3 /* StateOfPreservation.swift */,
+				DA6CF348254F198F00B9B3C3 /* CardGameType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,9 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6CF342254F123B00B9B3C3 /* CardGame+CoreDataProperties.swift in Sources */,
 				4C20B8F4254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld in Sources */,
+				DA6CF34C254F1C8B00B9B3C3 /* CardGame+CoreDataProperties.swift in Sources */,
 				4C20B8F1254EF5FD00AFE3EA /* ContentView.swift in Sources */,
+				DA6CF34F254F1EF000B9B3C3 /* StateOfPreservation.swift in Sources */,
+				DA6CF349254F198F00B9B3C3 /* CardGameType.swift in Sources */,
 				4C20B8EF254EF5FD00AFE3EA /* AppDelegate.swift in Sources */,
+				DA6CF341254F123B00B9B3C3 /* CardGame+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
