@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  CardGameCollect
-//
-//  Created by Michael Roitzsch on 01.11.20.
-//
-
 import Cocoa
 import SwiftUI
 
@@ -13,11 +6,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 	var window: NSWindow!
 
-
 	func applicationDidFinishLaunching(_ aNotification: Notification) {
-		// Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
-		// Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-		let contentView = ContentView().environment(\.managedObjectContext, persistentContainer.viewContext)
+		let mainView = MainView().environment(\.managedObjectContext, persistentContainer.viewContext)
 
 		// Create the window and set the content view.
 		window = NSWindow(
@@ -26,7 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		    backing: .buffered, defer: false)
 		window.center()
 		window.setFrameAutosaveName("Main Window")
-		window.contentView = NSHostingView(rootView: contentView)
+		window.contentView = NSHostingView(rootView: mainView)
 		window.makeKeyAndOrderFront(nil)
 	}
 
