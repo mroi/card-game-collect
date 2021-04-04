@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C20B8EF254EF5FD00AFE3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20B8EE254EF5FD00AFE3EA /* AppDelegate.swift */; };
-		4C20B8F1254EF5FD00AFE3EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20B8F0254EF5FD00AFE3EA /* ContentView.swift */; };
+		4C0FB802254F16EE00CC3AB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20B8F0254EF5FD00AFE3EA /* ContentView.swift */; };
+		4C20B8EF254EF5FD00AFE3EA /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20B8EE254EF5FD00AFE3EA /* App.swift */; };
 		4C20B8F4254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C20B8F2254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld */; };
 		4C20B8F6254EF5FE00AFE3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C20B8F5254EF5FE00AFE3EA /* Assets.xcassets */; };
-		4C20B8FC254EF5FE00AFE3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C20B8FA254EF5FE00AFE3EA /* Main.storyboard */; };
+		4CB1D23C261A18100057EB9E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1D23B261A18000057EB9E /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C20B8EB254EF5FD00AFE3EA /* Quartets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartets.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C20B8EE254EF5FD00AFE3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C20B8EE254EF5FD00AFE3EA /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		4C20B8F0254EF5FD00AFE3EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C20B8F3254EF5FD00AFE3EA /* CardGameCollect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardGameCollect.xcdatamodel; sourceTree = "<group>"; };
 		4C20B8F5254EF5FE00AFE3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C20B8FB254EF5FE00AFE3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C20B8FD254EF5FE00AFE3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C20B8FE254EF5FE00AFE3EA /* CardGameCollect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardGameCollect.entitlements; sourceTree = "<group>"; };
 		4C6EAC07254EFCAB00F8B97F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C6EAC08254EFCAB00F8B97F /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		4CB1D23B261A18000057EB9E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,10 +44,10 @@
 				4C6EAC07254EFCAB00F8B97F /* README.md */,
 				4C6EAC08254EFCAB00F8B97F /* TODO.md */,
 				4C20B8FD254EF5FE00AFE3EA /* Info.plist */,
-				4C20B8FE254EF5FE00AFE3EA /* CardGameCollect.entitlements */,
+				4C20B8EE254EF5FD00AFE3EA /* App.swift */,
 				4C20B8F5254EF5FE00AFE3EA /* Assets.xcassets */,
-				4C20B8EE254EF5FD00AFE3EA /* AppDelegate.swift */,
-				4C20B909254EF87100AFE3EA /* Model */,
+				4C20B8FE254EF5FE00AFE3EA /* CardGameCollect.entitlements */,
+				4C20B909254EF87100AFE3EA /* Data */,
 				4C20B90A254EF87700AFE3EA /* View */,
 				4C20B8EC254EF5FD00AFE3EA /* Products */,
 			);
@@ -61,18 +61,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C20B909254EF87100AFE3EA /* Model */ = {
+		4C20B909254EF87100AFE3EA /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				4C20B8F2254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld */,
+				4CB1D23B261A18000057EB9E /* Persistence.swift */,
 			);
-			path = Model;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		4C20B90A254EF87700AFE3EA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C20B8FA254EF5FE00AFE3EA /* Main.storyboard */,
 				4C20B8F0254EF5FD00AFE3EA /* ContentView.swift */,
 			);
 			path = View;
@@ -135,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C20B8FC254EF5FE00AFE3EA /* Main.storyboard in Resources */,
 				4C20B8F6254EF5FE00AFE3EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,23 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C20B8F4254EF5FD00AFE3EA /* CardGameCollect.xcdatamodeld in Sources */,
-				4C20B8F1254EF5FD00AFE3EA /* ContentView.swift in Sources */,
-				4C20B8EF254EF5FD00AFE3EA /* AppDelegate.swift in Sources */,
+				4CB1D23C261A18100057EB9E /* Persistence.swift in Sources */,
+				4C0FB802254F16EE00CC3AB1 /* ContentView.swift in Sources */,
+				4C20B8EF254EF5FD00AFE3EA /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4C20B8FA254EF5FE00AFE3EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C20B8FB254EF5FE00AFE3EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C20B8FF254EF5FE00AFE3EA /* Debug */ = {
