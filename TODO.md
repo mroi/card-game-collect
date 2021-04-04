@@ -3,7 +3,9 @@
 * app sandbox, hardened runtime
 * layered architecture
 * Swift, SwiftUI
+* [CoreData with value types and SwiftUI](https://davedelong.com/blog/2021/04/03/core-data-and-swiftui/)
 * automated testing
+* [Big-Sur-style icon](https://github.com/elrumo/macOS_Big_Sur_icons_replacements/blob/master/icons/Cardhop.icns)
 
 ### Address shortcomings of current app
 * regularly persist CoreData in the background

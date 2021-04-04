@@ -6,6 +6,7 @@ primarily to learn macOS app development, but the tool is generally usable. In s
 the code uses the German terms “Quartette” and “Quartettverwaltung”. Also, I only ever 
 maintained the German localization.
 
+___
 This work is licensed under the [WTFPL](http://www.wtfpl.net/), so you can do anything you 
 want with it.
 The [icon files](https://github.com/mroi/card-game-collect/blob/swift/Media.xcassets/Quartetts.appiconset/) 
