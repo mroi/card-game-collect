@@ -20,7 +20,6 @@
 		4C20B8F0254EF5FD00AFE3EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C20B8F3254EF5FD00AFE3EA /* CardGameCollect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardGameCollect.xcdatamodel; sourceTree = "<group>"; };
 		4C20B8F5254EF5FE00AFE3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C20B8FD254EF5FE00AFE3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C20B8FE254EF5FE00AFE3EA /* CardGameCollect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardGameCollect.entitlements; sourceTree = "<group>"; };
 		4C6EAC07254EFCAB00F8B97F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C6EAC08254EFCAB00F8B97F /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
@@ -43,7 +42,6 @@
 			children = (
 				4C6EAC07254EFCAB00F8B97F /* README.md */,
 				4C6EAC08254EFCAB00F8B97F /* TODO.md */,
-				4C20B8FD254EF5FE00AFE3EA /* Info.plist */,
 				4C20B8EE254EF5FD00AFE3EA /* App.swift */,
 				4C20B8F5254EF5FE00AFE3EA /* Assets.xcassets */,
 				4C20B8FE254EF5FE00AFE3EA /* CardGameCollect.entitlements */,
@@ -188,9 +186,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CardGameCollect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.1;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Info.plist;
-				MARKETING_VERSION = 0.1;
+				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = local.CardGameCollect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -203,9 +201,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CardGameCollect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.1;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Info.plist;
-				MARKETING_VERSION = 0.1;
+				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = local.CardGameCollect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
